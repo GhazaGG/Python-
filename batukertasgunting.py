@@ -39,5 +39,5 @@ while player == False:
             print("Komputer memilih :", computer)
     else:
         print("Kata yang anda masukan salah, silahkan cek lagi pengejaanya!")
-    player == False
-    computer == t[randint(0,2)]
+        player == False
+        computer == t[randint(0,2)]
