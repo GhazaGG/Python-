@@ -1,4 +1,4 @@
-
+MAX_LINE = 3
 
 
 def deposit():
@@ -13,10 +13,13 @@ def deposit():
 
 def line():
     while True:
-        line = input("Masukan baris yang ingin anda bet!")
+        line = input ("Masukan jumlah baris yang anda bet! : ( 1-"+ str(MAX_LINE)+ ")?")
         if line.isdigit():
             line = int(line)
-            break
+            if 1 <= line <= MAX_LINE:
+                break
+            else:
+                print("Tolong masukan jumlah yang benar")
         else:
             print("Tolong masukan jumlah yang benar!")
     return line 
@@ -24,6 +27,7 @@ def line():
 
 saldo = deposit()
 line = line()
-
 print("Jumlah saldo anda: ", saldo)
 print("Line yang anda bet", line)
+
+
