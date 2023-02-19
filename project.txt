@@ -1,0 +1,6 @@
+personal project list
+(plan)
+1. quiz game
+2. number guessing game
+3. choose your own adventure
+4. password managers
