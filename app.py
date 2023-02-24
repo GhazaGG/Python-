@@ -19,4 +19,4 @@ while numberGuessing > 0:
     print(f"Sisa kesempatan anda adlah: {numberGuessing}")
 
 if numberGuessing == 0:
-    print("Sisa kesempatan anda telah habis")
+    print(f"Sisa kesempatan anda telah habis, nomernya adalah {secretNumber}")
