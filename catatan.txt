@@ -1,0 +1,4 @@
+catatan xor
+xor akan true jika perbandingannya adalah sama 
+contoh true xor true = true
+selain itu maka akan false
