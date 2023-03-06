@@ -3,18 +3,18 @@
 # membuat gabungan rentang dari angka
 
 # menggunakan variabel
-# print("++++++++3------------10+++++++++")
-# print(f"Masukan angka Kurang dari tiga\n atau lebih dari 10")
-# inputuser = float(input("Masukan angka!: "))
+print("++++++++3------------10+++++++++")
+print(f"Masukan angka Kurang dari tiga\n atau lebih dari 10")
+inputuser = float(input("Masukan angka!: "))
 
-# iskurangdari = inputuser < 3
-# print("Kurang dari 3 =",iskurangdari)
+iskurangdari = inputuser < 3
+print("Kurang dari 3 =",iskurangdari)
 
-# islebihdari = inputuser > 10
-# print("Lebih dari 10 =",islebihdari)
+islebihdari = inputuser > 10
+print("Lebih dari 10 =",islebihdari)
 
-# isCorrect = iskurangdari or islebihdari
-# print("angka yang anda masukan: ",isCorrect)
+isCorrect = iskurangdari or islebihdari
+print("angka yang anda masukan: ",isCorrect)
 
 # Menggunakan function
 
